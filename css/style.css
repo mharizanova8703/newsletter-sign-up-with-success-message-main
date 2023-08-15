@@ -1,3 +1,298 @@
+.font-roboto-r {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
 
+.font-roboto-b {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.font-b7 {
+  font-size: 0.7rem;
+}
+
+.font-b9 {
+  font-size: 0.9rem;
+}
+
+.font-xs {
+  font-size: 1rem;
+}
+
+.font-s {
+  font-size: 1.1rem;
+}
+
+.font-sm {
+  font-size: 1.2rem;
+}
+
+.font-smx {
+  font-size: 1.3rem;
+}
+
+.font-smd {
+  font-size: 1.5rem;
+}
+
+.font-lgsm {
+  font-size: 1.6rem;
+}
+
+.font-md {
+  font-size: 1.8rem;
+}
+
+.font-mmd {
+  font-size: 2.1rem;
+}
+
+.font-lmd {
+  font-size: 2.4rem;
+}
+
+.font-xlmd {
+  font-size: 2.8rem;
+}
+
+.font-xxlmd {
+  font-size: 3.2rem;
+}
+
+.font-slg {
+  font-size: 3.6rem;
+}
+
+.font-smlg {
+  font-size: 3.8rem;
+}
+
+.font-mlg {
+  font-size: 4rem;
+}
+
+.font-llg {
+  font-size: 4.6rem;
+}
+
+.font-lg {
+  font-size: 6rem;
+}
+
+.font-xlg {
+  font-size: 7.2rem;
+}
+
+.size-150 {
+  width: 150px;
+}
+
+.mx-lg-7 {
+  margin-left: 7rem !important;
+  margin-right: 7rem !important;
+}
+
+@media screen and (max-width: 1181px) {
+  .font-md {
+    font-size: 1.7rem;
+  }
+
+  .font-mmd {
+    font-size: 2rem;
+  }
+
+  .font-lmd {
+    font-size: 2.3rem;
+  }
+
+  .font-xlmd {
+    font-size: 2.6rem;
+  }
+
+  .font-xxlmd {
+    font-size: 2.9rem;
+  }
+
+  .font-slg {
+    font-size: 3.2rem;
+  }
+
+  .font-smlg {
+    font-size: 3.5rem;
+  }
+
+  .font-mlg {
+    font-size: 3.6rem;
+  }
+
+  .font-llg {
+    font-size: 4.4rem;
+  }
+
+  .font-lg {
+    font-size: 5.4rem;
+  }
+
+  .font-xlg {
+    font-size: 6.6rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .font-slg {
+    font-size: 3rem;
+  }
+
+  .font-smlg {
+    font-size: 3.2rem;
+  }
+
+  .font-mlg {
+    font-size: 3.3rem;
+  }
+
+  .font-llg {
+    font-size: 4rem;
+  }
+
+  .font-lg {
+    font-size: 5rem;
+  }
+
+  .font-xlg {
+    font-size: 6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .font-xlg {
+    font-size: 5.6rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .font-xs {
+    font-size: 0.9rem;
+  }
+
+  .font-sm {
+    font-size: 1.1rem;
+  }
+
+  .font-smx {
+    font-size: 1rem;
+  }
+
+  .font-smd {
+    font-size: 1.1rem;
+  }
+
+  .font-lgsm {
+    font-size: 1.3rem;
+  }
+
+  .font-slg {
+    font-size: 2.8rem;
+  }
+
+  .font-smlg {
+    font-size: 2.9rem;
+  }
+
+  .font-mlg {
+    font-size: 3rem;
+  }
+
+  .font-llg {
+    font-size: 3.5rem;
+  }
+
+  .font-lg {
+    font-size: 4.4rem;
+  }
+
+  .font-xlg {
+    font-size: 5.4rem;
+  }
+
+  .font-md {
+    font-size: 1.1rem;
+  }
+
+  .font-mmd {
+    font-size: 1.7rem;
+  }
+
+  .font-lmd {
+    font-size: 2rem;
+  }
+
+  .font-xlmd {
+    font-size: 1.8rem;
+  }
+
+  .font-xxlmd {
+    font-size: 2rem;
+  }
+}
+.dark-slate {
+  color: #3b3e59;
+}
+
+.charcoal-grey {
+  color: #36384e;
+}
+
+.grey {
+  color: #9294a0;
+}
+
+.charcoal-grey-bg {
+  background-color: #36384e;
+}
+
+.bg-dark-slate {
+  background-color: #3b3e59;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.border-radius {
+  border-radius: 2rem;
+}
+
+.w-30 {
+  width: 30px;
+}
+
+#card {
+  overflow-x: hidden;
+}
+#card .card-main {
+  display: flex;
+  justify-content: center;
+}
+#card .card-main .card {
+  background-image: url("../assets/images/illustration-sign-up-desktop.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat, repeat;
+  background-color: white !important;
+  background-size: cover;
+}
+
+@media screen and (max-width: 680px) {
+  #card .card-main {
+    display: block;
+  }
+  #card .card-main .card {
+    background-image: url("../assets/images/illustration-sign-up-mobile.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat, repeat;
+    background-color: white !important;
+    background-size: cover;
+    padding: 10rem;
+    text-align: center;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
